@@ -22,11 +22,11 @@ namespace GradeBook.GradeBooks
                 case double n when n >= 80:
                     return 'A';
                 case double n when n >= 60:
-                    return 'A';
+                    return 'B';
                 case double n when n >= 40:
-                    return 'A';
+                    return 'C';
                 case double n when n >= 20:
-                    return 'A';
+                    return 'D';
                 default:
                     return 'F';
             }
